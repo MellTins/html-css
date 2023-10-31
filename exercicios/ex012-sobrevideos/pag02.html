@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revisão de audio e video</title>
+</head>
+<body>
+    <h1>Aqui eu vou tentar relembrar  que foi passado nas aulas sobre audio e video</h1>
+    <p>Como colocar audio no seu site</p>
+    <p>Jeito simples</p>
+    <audio src="midia/happy-mistake.mp3" controls preload="metadata"></audio>
+
+    <h1>Essa é a forma recomendada pelo guanabra afim de incluir diversos navegadores</h1>
+    <audio preload="metadata" controls>
+         <source   src="midia/happy-mistake.mp3" type="audio/mp3" 
+      >
+     </audio>
+    <!--  utilizamos somente a tag audio e dentro dela usamos a tag source srt  -->
+    <h1>Agora vamos testar videos guardados localmente</h1>
+    <p>jeito simples</p>
+    <video src="midia/Meu-Video (2).mp4" width="400" controls></video>
+
+    <p>Jeito recomendado</p>
+    <video poster="imagens/thumb.png" controls width="400">
+        <source  src="midia/meu-video.ogv" type="audio/ogv">
+        <source src="midia/meu-video.mp4" type="audio/mp4">
+        <source src="midia/Meu-Video.webm" type="audio/webm">
+        <source src="midia/Meu-Video (2).mp4" type="audio/mp4">
+    </video>
+
+
+</body>
+</html>
